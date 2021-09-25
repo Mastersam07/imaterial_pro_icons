@@ -32,13 +32,16 @@ jobs:
       #   run: flutter analyze --no-pub
       - name: Run tests
         run: flutter test --coverage
-      - name: Install lcov
-        run: sudo apt-get install -y lcov
+      # - name: Install lcov
+      #   run: sudo apt-get install -y lcov
       - name: Upload coverage to codecov
-        uses: codecov/codecov-action@v1.2.1
-        with:
-          file: coverage/lcov.info
-          token: "${{ secrets.CODECOV_TOKEN }}"
+        run: curl -s https://codecov.io/bash
+        shell: bash
+      # - name: Upload coverage to codecov
+      #   uses: codecov/codecov-action@v1.2.1
+      #   with:
+      #     file: coverage/lcov.info
+      #     token: "${{ secrets.CODECOV_TOKEN }}"
   # build-android:
   #   name: Build android client
   #   needs: [format-and-lint]
