@@ -32,7 +32,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   List<IconModel> imaterialIcons = [
     IconModel(icon: IMaterialProRegular.Pin, name: "Location icon"),
     IconModel(icon: IMaterialProRegular.Alert, name: "Bell icon"),
