@@ -30,7 +30,7 @@ jobs:
         run: flutter format --dry-run . --set-exit-if-changed
       # - name: Lint analysis
       #   run: flutter analyze --no-pub
-      # - name: Run tests
+      - name: Run tests
         run: flutter test --coverage
       - name: Install lcov
         run: sudo apt-get install -y lcov
