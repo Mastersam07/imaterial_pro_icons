@@ -4,9 +4,9 @@ import 'package:imaterial_pro_flutter/imaterial_pro_flutter.dart';
 
 void main() {
   test('Test some icons', () {
-        expect(IMaterialProRegular.Alert.codePoint, 0xe901);
-        expect(IMaterialProLight.Alert.codePoint, 0xe901);
-      });
+    expect(IMaterialProRegular.Alert.codePoint, 0xe901);
+    expect(IMaterialProLight.Alert.codePoint, 0xe901);
+  });
 
   test('Test icon family', () {
     expect(IMaterialProRegular.Alert.fontFamily, 'iMaterialPro-regular');
