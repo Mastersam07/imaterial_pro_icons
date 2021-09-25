@@ -12,6 +12,7 @@ and the Flutter guide for
 -->
 
 [![codecov](https://codecov.io/gh/Mastersam07/imaterial_pro_icons/branch/master/graph/badge.svg?token=B9WCNOYUBH)](https://codecov.io/gh/Mastersam07/imaterial_pro_icons)
+[![Test](https://github.com/Mastersam07/imaterial_pro_icons/actions/workflows/test.yml/badge.svg)](https://github.com/Mastersam07/imaterial_pro_icons/actions/workflows/test.yml)
 
 TODO: Put a short description of the package here that helps potential users
 know whether this package might be useful for them.
