@@ -38,8 +38,7 @@ jobs:
         uses: codecov/codecov-action@v1.2.1
         with:
           file: coverage/lcov.info
-          token: "${{ secretes.CODECOV_TOKEN }}"
-
+          token: "${{ secrets.CODECOV_TOKEN }}"
   # build-android:
   #   name: Build android client
   #   needs: [format-and-lint]
