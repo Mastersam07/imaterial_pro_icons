@@ -12,7 +12,10 @@ This flutter package allows you to use the IMaterial Pro Icons.
 In the `dependencies:` section of your _pubspec.yaml_, add the following line:
 
 ```yaml
-imaterial_pro_flutter: ^0.0.1
+imaterial_pro_flutter:
+    git:
+      url: git://github.com/Mastersam07/imaterial_pro_icons.git
+      ref: master
 ```
 
 ## 🎮 Usage
@@ -26,7 +29,7 @@ class MyAwesomeWidget extends StatelessWidget {
         child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-                Icon(IMaterialProRegular.Pin, size: 50.0),
+                Icon(IMaterialProRegular.Power, size: 50.0),
                 const SizedBox(height: 30.0),
                 Text('Location icon', textAlign: TextAlign.center),
             ],
