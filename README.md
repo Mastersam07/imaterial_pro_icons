@@ -12,10 +12,7 @@ This flutter package allows you to use the IMaterial Pro Icons.
 In the `dependencies:` section of your _pubspec.yaml_, add the following line:
 
 ```yaml
-imaterial_pro_flutter:
-    git:
-      url: git://github.com/Mastersam07/imaterial_pro_icons.git
-      ref: master
+imaterial_pro_flutter: ^1.0.0
 ```
 
 ## 🎮 Usage
